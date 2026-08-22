@@ -1040,7 +1040,18 @@ textarea.form-input{resize:vertical;min-height:130px}
 }
 </script>
 
+
+
+<script type="module">
+  import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics/+esm';
+  inject();
+</script>
+
 <script>
+
+
+
+  
 /* ══════════════════════════════════════════════════════════════════════
    GOOGLE SHEETS CONNECTION — THE ONLY LINE YOU NEED TO EDIT
 
@@ -1053,7 +1064,10 @@ textarea.form-input{resize:vertical;min-height:130px}
    Until you paste it, the form falls back to opening the visitor's
    email app, so the site still works in the meantime.
    ══════════════════════════════════════════════════════════════════════ */
-var GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyRr-xt-xvZ1cbu3LO0-ZJafBQJf-GpIC52eumZi-yp-5oMtZj-qJ0ri4BWVvD6cT29/exec';
+
+
+   
+var GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxSUXGcPixSzXmdoktTWOufyH95wSyf3uFPuH1zW6hHU9gSIAOX0V-b-4lbSIsUMXhmmQ/exec';
 
 /* Where enquiries should go if the Google Sheet is unreachable. */
 var FALLBACK_EMAIL = 'meroyantra369@gmail.com';
